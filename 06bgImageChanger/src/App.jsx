@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="w-full h-screen flex justify-center items-center">
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
-        <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white px-4 py-3 rounded-2xl">
+        <div className="flex flex-wrap justify-center gap-1  shadow-lg bg-white px-1 py-1 rounded-2xl">
           
           {/* Thumbnail Buttons (Padding Removed) */}
           <button onClick={() => setImage(img1)} className="w-20 h-20 border-2 border-gray-500 p-0 rounded-lg hover:scale-110 transition">
