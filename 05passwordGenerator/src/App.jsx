@@ -34,6 +34,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
+      <h1 className="text-xl font-bold text-center mb-4 text-orange-500">responsive_componenets12.99</h1>
       <div className="bg-gray-800 p-6 rounded-lg shadow-lg w-[28rem]">
         <h2 className="text-xl font-bold text-center mb-4">Password Generator</h2>
         <div className="flex items-center border rounded-lg overflow-hidden mb-4">
@@ -79,12 +80,16 @@ function App() {
         </div>
         <button
           onClick={generatePassword}
-          className="w-full bg-green-500 hover:bg-green-600 py-2 rounded-lg"
+          className="w-full bg-green-500 hover:bg-green-600 py-2 rounded-lg text-xl font-bold
+          text-orange-400"
         >
           Generate Password
         </button>
       </div>
+      <h1 className="text-xl font-bold text-center mb-4">Now it feels easy to build projects using React and Tailwind. 😊🚀</h1>
     </div>
+
+    
   );
 }
 
